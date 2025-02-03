@@ -1,61 +1,69 @@
-# Frontend Challenge - Responsive Web Layout
+# Desafío Frontend - Diseño Web Responsivo
 
-## 📌 Project Overview
-This project is a **responsive web layout** built using **HTML5, CSS3, Bootstrap 5, and vanilla JavaScript**. The goal is to create a user-friendly interface with a **navigation bar and an image carousel**, ensuring full responsiveness across desktop, tablet, and mobile devices.
+## 📌 Resumen del Proyecto
+Este proyecto es un **diseño web responsivo** construido utilizando **HTML5, CSS3, Bootstrap 5 y JavaScript puro**. El objetivo es crear una interfaz fácil de usar con una **barra de navegación y un carrusel de imágenes**, asegurando completa **responsividad** en dispositivos de escritorio, tabletas y móviles.
 
-## 🏗️ Project Structure
+## 🏗️ Estructura del Proyecto
 ```
 frontend-challenge/
-├── assets/             # Images, icons, fonts
-│   ├── images/         # Store images here
-│   ├── icons/          # SVGs, font icons, etc.
-│   ├── fonts/          # Custom fonts if needed
+├── assets/             # Imágenes, iconos, fuentes
+│   ├── images/         # Aquí se guardan las imágenes
+│   ├── icons/          # SVGs, iconos de fuentes, etc.
 │
-├── css/                # Stylesheets
-│   ├── styles.css      # Main styles
-│   ├── navbar.css      # Specific navbar styles
-│   ├── carousel.css    # Carousel-specific styles
+├── components/         # Componentes HTML
+│   ├── carousel.html/  # Componente de carrusel.
+│   ├── navbar.html/    # Barra de navegación, campo de búsqueda, etc.
+│   ├── modal.html/     # Modal para búsqueda responsiva.
 │
-├── js/                 # JavaScript files
-│   ├── script.js       # Main JS file
-│   ├── navbar.js       # JS for navbar interactions
-│   ├── carousel.js     # JS for carousel behavior
+├── css/                # Archivos de estilo.
+│   ├── styles.css      # Estilos principales.
+│   ├── navbar.css      # Estilos específicos para la barra de navegación.
+│   ├── carousel.css    # Estilos específicos para el carrusel.
+│   ├── display.css     # Estilos para display como flex o flex-col.
+│   ├── components.css  # Estilos específicos para componentes (entradas, botones, etc).
+│   ├── utils.css       # Utilidades como separadores, líneas, etc.
 │
-├── index.html          # Main HTML file
-├── README.md           # Project documentation
-├── .gitignore          # Ignore unnecessary files
-├── package.json        # Project dependencies & scripts
-└── node_modules/       # Installed dependencies
+├── js/                 # Archivos de JavaScript.
+│   ├── index.js        # Archivo principal de JS.
+│   ├── components      # Promesa para cargar componentes de manera asincrónica.
+│   ├── navbar.js       # JS para interacciones de la barra de navegación.
+│   ├── carousel.js     # JS para comportamiento del carrusel.
+│
+├── index.html          # Archivo principal HTML.
+├── README.md           # Documentación del proyecto.
+├── .gitignore          # Ignorar archivos innecesarios.
+└── package.json        # Dependencias y scripts del proyecto.
+
 ```
 
-## 🚀 Setup Instructions
-### 1️⃣ Clone the Repository
+## 🚀 Instrucciones de Configuración
+### 1️⃣ Clonar el Repositorio
 ```sh
 git clone <repository-url>
 cd frontend-challenge
 ```
 
-### 2️⃣ Install Dependencies
+### 2️⃣ Instalar Dependencias
 ```sh
 npm install
 ```
 
-### 3️⃣ Run the Project Locally
-#### Option 1: Using Live Server
+### 3️⃣ Correr el proyecto de manera local
+#### Opción 1: Usando Live Server
 ```sh
 npm run dev
 ```
-#### Option 2: Using Serve (Alternative)
+#### Opción 2: Usando Serve (Alternativa)
 ```sh
 npm run start
 ```
 
-## 📌 Features Implemented So Far
-- ✅ **Project structure setup**
-- ✅ **Bootstrap 5 & Google Fonts (Montserrat) added**
-- ✅ **Live server setup with npm scripts**
-- ✅ **Responsive design breakpoints defined**
-- ✅ Implement the **navigation bar**
-- ✅ Build the **image carousel**
-- ✅ Ensure full **responsiveness on all devices**
-- ✅ Add final **UI refinements & animations**
+## 📌 Características Implementadas Hasta Ahora
+- ✅ **Estructura del proyecto configurada**
+- ✅ **Bootstrap 5 y Google Fonts (Montserrat) agregados**
+- ✅ **Servidor en vivo configurado con scripts de npm**
+- ✅ **Puntos de ruptura responsivos definidos**
+- ✅ Implementada la **barra de navegación**
+- ✅ Construido el **carrusel de imágenes**
+- ✅ Garantizada la **responsividad en todos los dispositivos**
+- ✅ Añadidos los últimos **ajustes de UI y animaciones**
