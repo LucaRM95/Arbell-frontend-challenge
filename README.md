@@ -55,13 +55,7 @@ npm run start
 - ✅ **Bootstrap 5 & Google Fonts (Montserrat) added**
 - ✅ **Live server setup with npm scripts**
 - ✅ **Responsive design breakpoints defined**
-
-## 🛠️ Next Steps
-- [ ] Implement the **navigation bar**
-- [ ] Build the **image carousel**
-- [ ] Ensure full **responsiveness on all devices**
-- [ ] Add final **UI refinements & animations**
-
----
-💡 *This project is part of a technical challenge and will be deployed using GitHub Pages or a similar hosting service.*
-
+- ✅ Implement the **navigation bar**
+- ✅ Build the **image carousel**
+- ✅ Ensure full **responsiveness on all devices**
+- ✅ Add final **UI refinements & animations**
