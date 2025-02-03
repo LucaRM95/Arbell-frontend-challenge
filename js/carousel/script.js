@@ -33,7 +33,7 @@ export function loadCarouselImages() {
   
       const indicator = document.createElement("button");
       indicator.type = "button";
-      indicator.setAttribute("data-bs-target", "#carouselExampleIndicators");
+      indicator.setAttribute("data-bs-target", "#arbellCarousel");
       indicator.setAttribute("data-bs-slide-to", index.toString());
       
       if (index === 0) {

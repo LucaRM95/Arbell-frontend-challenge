@@ -7,7 +7,7 @@
 }
 
 .search-input {
-  width: 600px;
+  width: 650px;
   padding: 10px 40px 10px 15px;
   font-size: 1rem;
   border: none;
@@ -35,6 +35,12 @@
   box-shadow: 0 0 8px rgba(50, 170, 246, 0.5);
 }
 
+@media(min-width: 1199px) {
+  .search-input {
+    width: 800px;
+  }
+}
+
 @media (min-width: 768px) {
   .search-btn {
     display: none !important;
@@ -44,5 +50,8 @@
 @media (max-width: 767px) {
   .search-input {
     display: none !important;
+  }
+  .search-container::after{
+    display: none;
   }
 }
