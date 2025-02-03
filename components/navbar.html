@@ -1,0 +1,46 @@
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+            <img width="32" height="42" src="./assets/icons/arbell_a_logo.png" alt="arbell logo">
+        </a>
+        <div class="search-container">
+            <input type="text" class="search-input d-none d-md-block" placeholder="¿ QUÉ ESTAS BUSCANDO ?">
+        </div>
+        <div class="flex gap-2">
+            <button class="btn search-btn d-md-none" data-bs-toggle="modal" data-bs-target="#searchModal">
+                <img width="25" height="25" src="assets/icons/buscador.svg" alt="search icon">
+            </button>
+            <button id="menuToggle" class="navbar-toggler custom-toggler" type="button">
+                <img width="32" height="42" src="assets/icons/menu_hamburgesa_superior.svg" alt="Menu">
+            </button>
+        </div>
+    </div>
+</nav>
+
+<div id="offCanvasMenu" class="offcanvas-menu">
+    <div>
+        <button class="close-btn" id="closeMenu">
+            <img src="../assets/icons/arbell_reduccion.png" alt="arbell logo">
+            &times;
+        </button>
+    </div>
+    <div class="menu-items">
+        <div class="separator"></div>
+        <div class="profile">
+            <img src="./assets/icons/3.png" alt="login">
+            <div class="flex-col p-1">
+                <span>User name</span>
+                <a href="https://tienda.arbell.com.ar/pages/login?id=0&redirect=%2F%3Fid%3D0">View profile</a>
+            </div>
+        </div>
+        <div class="separator"></div>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="https://tienda.arbell.com.ar/pages/shop?id=0">Shop</a></li>
+            <li><a href="https://tienda.arbell.com.ar/pages/reels/0?id=0">Reels</a></li>
+            <li><a href="https://tienda.arbell.com.ar/pages/locator">Locator</a></li>
+        </ul>
+    </div>
+    <div class="separator"></div>
+    <button class="arbell-button mt-5">Logout</button>
+</div>

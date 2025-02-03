@@ -1,0 +1,30 @@
+@import url('./components/styles.css');
+@import url('./carousel/styles.css');
+@import url('./navbar/styles.css');
+@import url('./display/styles.css');
+@import url('./utils/styles.css');
+
+:root {
+    --primary-color: #32AAF6;
+    --primary-color-2: rgba(33,150,243,0.2);
+    --secondary-color: #FF6CAF;
+    --accent-color: #FF6F0D;
+    --beige-color: #F9E5D4;
+    --highlight-color: #EFC825;
+    --dark-color: #1E1E1E;
+    --background-color: #EFEAE6;
+    --white: #FFFFFF;
+    --success-color: #57C16B;
+    --purple-color: #8341C9;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    height: 100vh;
+    background-color: var(--white); 
+}
+
+.btn{
+    padding: 0px;
+}
+
